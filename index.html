@@ -41,7 +41,7 @@
       overflow-y: auto;
       overflow-x: hidden;
       -webkit-overflow-scrolling: touch;
-      padding: 48px 0 40px;
+      padding: 28px 0 24px;
       transition: opacity 0.5s ease, transform 0.5s ease;
     }
     #launcher.hidden {
@@ -74,7 +74,7 @@
 
     .launcher-header {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 24px;
       position: relative;
       z-index: 1;
       animation: fadeInDown 0.7s ease both;
@@ -165,7 +165,7 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 22px;
-      padding: 30px 26px;
+      padding: 22px 22px;
       cursor: pointer;
       transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
       animation: fadeInUp 0.6s ease both;
@@ -193,10 +193,10 @@
     .app-card[data-id="consultation"] { --card-accent: var(--accent1); --card-glow: radial-gradient(ellipse at top, rgba(79,142,247,0.08) 0%, transparent 70%); }
 
     .card-icon {
-      width: 54px; height: 54px;
+      width: 48px; height: 48px;
       border-radius: 16px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 26px; margin-bottom: 18px;
+      font-size: 24px; margin-bottom: 12px;
     }
     .app-card[data-id="grades"]       .card-icon { background: rgba(16,185,129,0.15); }
     .app-card[data-id="attendance"]   .card-icon { background: rgba(124,92,252,0.15); }
@@ -341,7 +341,7 @@
 
     /* ── CREDITS ── */
     .launcher-credits {
-      margin-top: 32px; text-align: center;
+      margin-top: 14px; text-align: center;
       position: relative; z-index: 1;
       animation: fadeInUp 0.7s ease 0.5s both;
     }
@@ -361,7 +361,7 @@
 
     /* ── NOTICE BANNER ── */
     .launcher-notice {
-      margin-top: 20px;
+      margin-top: 12px;
       max-width: 680px; width: calc(100% - 40px);
       position: relative; z-index: 1;
       animation: fadeInUp 0.7s ease 0.65s both;
@@ -433,7 +433,7 @@
   </div>
 
   <!-- 성적 입력 직접 링크 -->
-  <div style="margin-top:16px;position:relative;z-index:1;animation:fadeInUp 0.7s ease 0.75s both;">
+  <div style="margin-top:10px;position:relative;z-index:1;animation:fadeInUp 0.7s ease 0.75s both;">
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGbzG_BgYzazMQFE-4b1dnciiqbDv9PfvEwXcQNJQP3j_W7Q/viewform"
        target="_blank" rel="noopener noreferrer"
        style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:#fff;border:1px solid rgba(16,185,129,0.3);border-radius:99px;font-size:13px;font-weight:700;color:#059669;text-decoration:none;box-shadow:0 2px 12px rgba(16,185,129,0.15);transition:all .2s;"
