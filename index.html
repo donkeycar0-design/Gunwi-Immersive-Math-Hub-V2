@@ -405,15 +405,6 @@
       <div class="card-label">Grades</div>
       <div class="card-name">수학 성적관리</div>
       <div class="card-desc">월별 성적 분석 및<br>학년별 성취도 조회</div>
-      <!-- 성적 입력 폼 링크 -->
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGbzG_BgYzazMQFE-4b1dnciiqbDv9PfvEwXcQNJQP3j_W7Q/viewform"
-         target="_blank"
-         onclick="event.stopPropagation();"
-         style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:7px 14px;background:rgba(16,185,129,0.12);border-radius:99px;font-size:11px;font-weight:700;color:#059669;text-decoration:none;transition:background .15s;"
-         onmouseover="this.style.background='rgba(16,185,129,0.22)'"
-         onmouseout="this.style.background='rgba(16,185,129,0.12)'">
-        ✏️ 성적 입력하기
-      </a>
       <div class="card-arrow">→</div>
     </div>
 
@@ -441,6 +432,18 @@
 
   </div>
 
+  <!-- 성적 입력 직접 링크 -->
+  <div style="margin-top:16px;position:relative;z-index:1;animation:fadeInUp 0.7s ease 0.75s both;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGbzG_BgYzazMQFE-4b1dnciiqbDv9PfvEwXcQNJQP3j_W7Q/viewform"
+       target="_blank" rel="noopener noreferrer"
+       style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:#fff;border:1px solid rgba(16,185,129,0.3);border-radius:99px;font-size:13px;font-weight:700;color:#059669;text-decoration:none;box-shadow:0 2px 12px rgba(16,185,129,0.15);transition:all .2s;"
+       onmouseover="this.style.background='#f0fdf4';this.style.boxShadow='0 4px 20px rgba(16,185,129,0.25)'"
+       onmouseout="this.style.background='#fff';this.style.boxShadow='0 2px 12px rgba(16,185,129,0.15)'">
+      ✏️ 수학 성적 입력하기
+      <span style="font-size:11px;opacity:.6;">→ Google Form</span>
+    </a>
+  </div>
+
   <div class="launcher-credits">
     <div class="credits-label">Developed &amp; Managed by</div>
     <div class="credits-names">
@@ -456,13 +459,14 @@
     <div class="notice-box">
       <div class="notice-icon">🚀</div>
       <div class="notice-text">
-        출결관리 · 강사포털이 <strong>DB V2</strong>로 업그레이드됐습니다.
+        출결관리 · 강사포털이 <strong>DB</strong>로 업그레이드됐습니다.
         기존보다 <strong>훨씬 빠른 속도</strong>로 이용하실 수 있습니다.
         문제 발생 시 <strong>새로고침 후 재시도</strong>해 주세요.
       </div>
     </div>
   </div>
-</div>
+
+  </div>
 
 <!-- ════ APP SHELL ════ -->
 <div id="app-shell">
